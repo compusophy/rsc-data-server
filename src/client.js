@@ -74,11 +74,11 @@ class Client {
     }
 
     getIP() {
-        return this.socket.remoteAddress || '127.0.0.1';
+        return this.socket.remoteAddress || 'rsc-server.railway.internal';
     }
 
     toString() {
-        return this.socket.remoteAddress || os.hostname();
+        return this.socket.remoteAddress || 'rsc-server.railway.internal';
     }
 }
 
