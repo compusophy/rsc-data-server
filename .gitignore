@@ -2,3 +2,5 @@ node_modules/
 rsc-data-server.sqlite*
 .eslintcache
 .node_repl_history
+backups/
+.DS_Store
