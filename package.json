@@ -7,13 +7,13 @@
     "rsc-data-server": "./src/bin.js"
   },
   "scripts": {
-    "start": "./src/bin.js -v debug | garnish"
+    "start": "node src/bin.js -v debug"
   },
   "author": "2003Scape Team",
   "license": "AGPL-3.0+",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "better-sqlite3": "^7.1.1",
+    "better-sqlite3": "^8.7.0",
     "bole": "^4.0.0",
     "camelcase-keys": "^6.2.2",
     "json-socket": "^0.3.0",
