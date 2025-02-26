@@ -26,7 +26,7 @@ re-hashing upon `config.passwordHash` modification
 
 ## cli usage
 `-c <config-file>` is optional, rsc-data-server will look for *config.json* in
-its own directory first.
+its own directory first..
 
 ```
 $ rsc-data-server -c /etc/rsc-data-server/config.json
